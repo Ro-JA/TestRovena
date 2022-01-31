@@ -30,17 +30,20 @@
             android:id="@+id/image_button_1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/slice_2"/>
+            android:background="@drawable/slice_2"
+            android:layout_weight="1"/>
         <ImageButton
             android:id="@+id/image_button_2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/slice_3"/>
+            android:background="@drawable/slice_3"
+            android:layout_weight="1"/>
         <ImageButton
             android:id="@+id/image_button_3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/slice_4"/>
+            android:background="@drawable/slice_4"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 
@@ -53,17 +56,20 @@
             android:id="@+id/image_button_4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/slice_5"/>
+            android:background="@drawable/slice_5"
+            android:layout_weight="1"/>
         <ImageButton
             android:id="@+id/image_button_5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/slice_6"/>
+            android:background="@drawable/slice_6"
+            android:layout_weight="1"/>
         <ImageButton
             android:id="@+id/image_button_6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/slice_7"/>
+            android:background="@drawable/slice_7"
+            android:layout_weight="1"/>
 
     </LinearLayout>
 
