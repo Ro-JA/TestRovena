@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Test Raven</string>
-    <string name="text_view">Pick the missing part.</string>
+    <string name="text_view">Pick the missing piece</string>
 </resources>
