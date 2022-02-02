@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        imageView = findViewById(R.id.image_view)
         buttonLeft = findViewById(R.id.button_back)
         buttonRight = findViewById(R.id.button_next)
         button1 = findViewById(R.id.image_button_1)
@@ -28,8 +29,24 @@ class MainActivity : AppCompatActivity() {
         button4 = findViewById(R.id.image_button_4)
         button5 = findViewById(R.id.image_button_5)
         button6 = findViewById(R.id.image_button_6)
+
         button1.setOnClickListener {
             numberButton = 1
+        }
+        button2.setOnClickListener {
+            numberButton = 2
+        }
+        button3.setOnClickListener {
+            numberButton = 3
+        }
+        button4.setOnClickListener {
+            numberButton = 4
+        }
+        button5.setOnClickListener {
+            numberButton = 5
+        }
+        button6.setOnClickListener {
+            numberButton = 6
         }
     }
 }
