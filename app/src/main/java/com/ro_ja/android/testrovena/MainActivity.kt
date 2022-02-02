@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        buttonLeft = findViewById(R.id.button_back)
+        buttonRight = findViewById(R.id.button_next)
         button1 = findViewById(R.id.image_button_1)
         button2 = findViewById(R.id.image_button_2)
         button3 = findViewById(R.id.image_button_3)
