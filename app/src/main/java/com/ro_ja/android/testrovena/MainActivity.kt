@@ -15,9 +15,19 @@ class MainActivity : AppCompatActivity() {
     private lateinit var button6: Button
     private lateinit var buttonRight: Button
     private lateinit var buttonLeft: Button
+    private var numberButton = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        button1 = findViewById(R.id.image_button_1)
+        button2 = findViewById(R.id.image_button_2)
+        button3 = findViewById(R.id.image_button_3)
+        button4 = findViewById(R.id.image_button_4)
+        button5 = findViewById(R.id.image_button_5)
+        button6 = findViewById(R.id.image_button_6)
+        button1.setOnClickListener {
+            numberButton = 1
+        }
     }
 }
