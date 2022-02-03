@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="@dimen/padding_4">
 
 
     <TextView
@@ -33,21 +34,24 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/slice_2" />
+            android:background="@drawable/slice_2"
+            android:padding="@dimen/padding_4"/>
 
         <ImageButton
             android:id="@+id/image_button_2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/slice_3" />
+            android:background="@drawable/slice_3"
+            android:padding="@dimen/padding_4"/>
 
         <ImageButton
             android:id="@+id/image_button_3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/slice_4" />
+            android:background="@drawable/slice_4"
+            android:padding="@dimen/padding_4"/>
 
 
     </LinearLayout>
@@ -64,21 +68,24 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/slice_5" />
+            android:background="@drawable/slice_5"
+            android:layout_margin="@dimen/padding_4"/>
 
         <ImageButton
             android:id="@+id/image_button_5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/slice_6" />
+            android:background="@drawable/slice_6"
+            android:layout_margin="@dimen/padding_4" />
 
         <ImageButton
             android:id="@+id/image_button_6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/slice_7" />
+            android:background="@drawable/slice_7"
+            android:layout_margin="@dimen/padding_4"/>
 
 
     </LinearLayout>
@@ -87,21 +94,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/padding_16"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_4">
 
         <ImageButton
             android:id="@+id/button_next"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/button_size"
             android:layout_weight="1"
-            android:background="@drawable/arrow_left" />
+            android:background="@drawable/arrow_left"
+            android:layout_margin="@dimen/padding_4"/>
 
         <ImageButton
             android:id="@+id/button_back"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/button_size"
             android:layout_weight="1"
-            android:background="@drawable/arrow_right" />
+            android:background="@drawable/arrow_right"
+            android:layout_margin="@dimen/padding_4"/>
 
 
     </LinearLayout>
