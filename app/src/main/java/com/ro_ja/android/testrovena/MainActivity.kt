@@ -33,5 +33,20 @@ class MainActivity : AppCompatActivity() {
         button1.setOnClickListener {
             numberButton = 1
         }
+        button2.setOnClickListener {
+            numberButton = 2
+        }
+        button3.setOnClickListener {
+            numberButton = 3
+        }
+        button4.setOnClickListener {
+            numberButton = 4
+        }
+        button5.setOnClickListener {
+            numberButton = 5
+        }
+        button6.setOnClickListener {
+            numberButton = 6
+        }
     }
 }
