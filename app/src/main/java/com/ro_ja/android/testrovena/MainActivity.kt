@@ -35,12 +35,15 @@ class MainActivity : AppCompatActivity() {
 
         button1.setOnClickListener {
             numberButton = 1
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
         button2.setOnClickListener {
             numberButton = 2
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
         button3.setOnClickListener {
             numberButton = 3
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
         button4.setOnClickListener {
             numberButton = 4
@@ -48,9 +51,11 @@ class MainActivity : AppCompatActivity() {
         }
         button5.setOnClickListener {
             numberButton = 5
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
         button6.setOnClickListener {
             numberButton = 6
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
     }
 }
