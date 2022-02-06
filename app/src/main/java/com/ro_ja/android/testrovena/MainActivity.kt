@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         }
         button4.setOnClickListener {
             numberButton = 4
+
         }
         button5.setOnClickListener {
             numberButton = 5
