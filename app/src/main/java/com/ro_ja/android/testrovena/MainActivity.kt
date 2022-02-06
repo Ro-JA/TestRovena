@@ -1,9 +1,8 @@
 package com.ro_ja.android.testrovena
 
-import android.media.Image
+
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Toast
