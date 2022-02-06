@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     private lateinit var imageView: ImageView
@@ -43,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
         button4.setOnClickListener {
             numberButton = 4
-
+            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
         }
         button5.setOnClickListener {
             numberButton = 5
