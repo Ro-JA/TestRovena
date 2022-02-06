@@ -1,6 +1,7 @@
 package com.ro_ja.android.testrovena
 
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
@@ -56,6 +57,11 @@ class MainActivity : AppCompatActivity() {
         button6.setOnClickListener {
             numberButton = 6
             Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+        }
+
+        buttonRight.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            startActivity(intent)
         }
     }
 }
