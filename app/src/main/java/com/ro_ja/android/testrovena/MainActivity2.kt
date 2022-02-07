@@ -16,16 +16,16 @@ class MainActivity2 : AppCompatActivity() {
     private lateinit var button4: ImageButton
     private lateinit var button5: ImageButton
     private lateinit var button6: ImageButton
-    private lateinit var buttonRight: ImageButton
-    private lateinit var buttonLeft: ImageButton
+    private lateinit var buttonNext: ImageButton
+    private lateinit var buttonBack: ImageButton
     private var numberButton = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         imageView = findViewById(R.id.image_view)
-        buttonLeft = findViewById(R.id.button_back)
-        buttonRight = findViewById(R.id.button_next)
+        buttonBack = findViewById(R.id.button_back)
+        buttonNext = findViewById(R.id.button_next)
         button1 = findViewById(R.id.image_button_1)
         button2 = findViewById(R.id.image_button_2)
         button3 = findViewById(R.id.image_button_3)
@@ -56,6 +56,10 @@ class MainActivity2 : AppCompatActivity() {
         button6.setOnClickListener {
             numberButton = 6
             Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+        }
+
+        buttonBack.setOnClickListener {
+            finish()
         }
     }
 }
