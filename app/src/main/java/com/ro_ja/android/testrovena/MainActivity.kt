@@ -23,45 +23,45 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        imageView = findViewById(R.id.image_view)
-        buttonLeft = findViewById(R.id.button_back)
-        buttonRight = findViewById(R.id.button_next)
-        button1 = findViewById(R.id.image_button_1)
-        button2 = findViewById(R.id.image_button_2)
-        button3 = findViewById(R.id.image_button_3)
-        button4 = findViewById(R.id.image_button_4)
-        button5 = findViewById(R.id.image_button_5)
-        button6 = findViewById(R.id.image_button_6)
-
-        button1.setOnClickListener {
-            numberButton = 1
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
-        }
-        button2.setOnClickListener {
-            numberButton = 2
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
-        }
-        button3.setOnClickListener {
-            numberButton = 3
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
-        }
-        button4.setOnClickListener {
-            numberButton = 4
-            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
-        }
-        button5.setOnClickListener {
-            numberButton = 5
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
-        }
-        button6.setOnClickListener {
-            numberButton = 6
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
-        }
-
-        buttonRight.setOnClickListener {
-            val intent = Intent(this, MainActivity2::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.scroll_layout)
     }
 }
+//        imageView = findViewById(R.id.image_view)
+//        buttonLeft = findViewById(R.id.button_back)
+//        buttonRight = findViewById(R.id.button_next)
+//        button1 = findViewById(R.id.image_button_1)
+//        button2 = findViewById(R.id.image_button_2)
+//        button3 = findViewById(R.id.image_button_3)
+//        button4 = findViewById(R.id.image_button_4)
+//        button5 = findViewById(R.id.image_button_5)
+//        button6 = findViewById(R.id.image_button_6)
+//
+//        button1.setOnClickListener {
+//            numberButton = 1
+//            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+//        }
+//        button2.setOnClickListener {
+//            numberButton = 2
+//            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+//        }
+//        button3.setOnClickListener {
+//            numberButton = 3
+//            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+//        }
+//        button4.setOnClickListener {
+//            numberButton = 4
+//            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
+//        }
+//        button5.setOnClickListener {
+//            numberButton = 5
+//            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+//        }
+//        button6.setOnClickListener {
+//            numberButton = 6
+//            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+//        }
+//
+//        buttonRight.setOnClickListener {
+//            val intent = Intent(this, MainActivity2::class.java)
+//            startActivity(intent)
+//        }
