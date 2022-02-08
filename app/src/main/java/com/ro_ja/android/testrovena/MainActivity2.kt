@@ -1,6 +1,7 @@
 package com.ro_ja.android.testrovena
 
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
@@ -60,6 +61,11 @@ class MainActivity2 : AppCompatActivity() {
 
         buttonBack.setOnClickListener {
             finish()
+        }
+
+        buttonNext.setOnClickListener {
+            val intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)
         }
     }
 }
