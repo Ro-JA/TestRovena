@@ -10,23 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestRovena">
         <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity5"
             android:exported="false" />
         <activity
             android:name=".MainActivity4"
             android:exported="false"
-            android:label="@string/title_activity_main4"
-            android:theme="@style/Theme.TestRovena.NoActionBar" />
+
+             />
         <activity
             android:name=".MainActivity3"
             android:exported="false"
-            android:label="@string/title_activity_main3"
-            android:theme="@style/Theme.TestRovena.NoActionBar" />
+
+            />
         <activity
             android:name=".MainActivity2"
             android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.TestRovena.NoActionBar" />
+
+          />
         <activity
             android:name=".MainActivity"
             android:exported="true">
