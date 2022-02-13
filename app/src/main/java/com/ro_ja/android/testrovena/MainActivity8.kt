@@ -63,6 +63,11 @@ class MainActivity8 : AppCompatActivity() {
             finish()
         }
 
+        buttonNext.setOnClickListener {
+            val intent = Intent(this, MainActivity9::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
