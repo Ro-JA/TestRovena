@@ -9,7 +9,7 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.Toast
 
-class MainActivity9 : AppCompatActivity() {
+class MainActivity10 : AppCompatActivity() {
     private lateinit var imageView: ImageView
     private lateinit var button1: ImageButton
     private lateinit var button2: ImageButton
@@ -23,7 +23,7 @@ class MainActivity9 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main9)
+        setContentView(R.layout.activity_main10)
         imageView = findViewById(R.id.image_view)
         buttonBack = findViewById(R.id.button_back)
         buttonNext = findViewById(R.id.button_next)
@@ -40,7 +40,7 @@ class MainActivity9 : AppCompatActivity() {
         }
         button2.setOnClickListener {
             numberButton = 2
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
         }
         button3.setOnClickListener {
             numberButton = 3
@@ -48,7 +48,7 @@ class MainActivity9 : AppCompatActivity() {
         }
         button4.setOnClickListener {
             numberButton = 4
-            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
         button5.setOnClickListener {
             numberButton = 5
@@ -61,11 +61,6 @@ class MainActivity9 : AppCompatActivity() {
 
         buttonBack.setOnClickListener {
             finish()
-        }
-
-        buttonNext.setOnClickListener {
-            val intent = Intent(this, MainActivity10::class.java)
-            startActivity(intent)
         }
 
 
