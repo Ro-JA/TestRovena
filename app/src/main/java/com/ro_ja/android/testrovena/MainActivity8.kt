@@ -44,7 +44,7 @@ class MainActivity8 : AppCompatActivity() {
         }
         button3.setOnClickListener {
             numberButton = 3
-            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
         }
         button4.setOnClickListener {
             numberButton = 4
@@ -56,7 +56,7 @@ class MainActivity8 : AppCompatActivity() {
         }
         button6.setOnClickListener {
             numberButton = 6
-            Toast.makeText(this, R.string.toast_correct, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.toast_incorrect, Toast.LENGTH_SHORT).show()
         }
 
         buttonBack.setOnClickListener {
