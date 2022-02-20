@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TestRovena">
         <activity
+            android:name=".MainActivityMenu"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity12"
             android:exported="false" />
         <activity
