@@ -7,11 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivityMenu"
     android:orientation="horizontal">
+
     <Button
         android:id="@+id/button_test"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_test"
-        android:textSize=""
+        android:textSize="@dimen/button_size_text"/>
 
 </LinearLayout>
